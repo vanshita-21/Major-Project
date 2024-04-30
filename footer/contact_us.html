@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1>Contact Us</h1>
+    <p>We would love to respond to your queries and help you succeed.<br>Feel free to get in touch with us. </p>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Sent your request</h3>
+            <form id="contactForm">
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input id="name" type="text" placeholder="Name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input id="phone" type="text" placeholder="+1 411 365 4567">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input id="email" type="email" placeholder="name2gmail.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input id="subject" type="text" placeholder="Product Demo">
+                    </div>
+                </div>
+                
+                <label>Message</label>
+                <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+
+                <button type="submit">SEND</button>
+            </form>
+
+        </div>
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>contactus@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+1 012345678</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Jaipur , Rajasthan<br></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
